@@ -22,6 +22,9 @@ Users should be able to:
 
 ### Links
 
+- Solution Site URL:
+  - [Front-end](https://github.com/theshakeabhi/ip-address-tracker)
+  - [Back-end](https://github.com/theshakeabhi/ip-address-tracker-node)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -29,5 +32,5 @@ Users should be able to:
 ### Built with
 
 - [React](https://reactjs.org/) - JS library
-- [Node]
+- [Sawo](https://sawolabs.com/) - Passwordless Authentication
 - Flexbox
