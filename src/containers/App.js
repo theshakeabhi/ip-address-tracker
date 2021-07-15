@@ -11,14 +11,14 @@ function App() {
 		if (userId) {
 			setLoginStatus(true);
 		}
+		//write sawo api to compare between local storage userid
+		//and sawo payload
 	}, [loginStatus]);
 
 	return (
 		<div className='App'>
-			<header className='App-header'>
-				{!loginStatus && <SawoLogin setLoginStatus={setLoginStatus} />}
-				{loginStatus && <Dashboard />}
-			</header>
+			{!loginStatus && <SawoLogin setLoginStatus={setLoginStatus} />}
+			{loginStatus && <Dashboard />}
 		</div>
 	);
 }
