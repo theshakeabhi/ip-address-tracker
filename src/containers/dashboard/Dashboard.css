@@ -1,5 +1,6 @@
 .heading-search {
-	background: url('../../assets/images/pattern-bg.png') no-repeat center/cover;
+	background: url('../../assets/images/pattern-bg.png') no-repeat;
+	background-size: cover;
 	display: flex;
 	padding: 1em 0;
 	width: 100vw;
