@@ -1,0 +1,23 @@
+.heading {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 700;
+	color: white;
+}
+
+.search-bar {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	color: hsl(0, 0%, 59%);
+}
+
+.ip-details-title {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	color: hsl(0, 0%, 59%);
+}
+
+.ip-details {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 700;
+	color: hsl(0, 0%, 17%);
+}
