@@ -23,8 +23,6 @@ const Map = (props) => {
 
 	useEffect(() => {
 		setPosition([props.ip.location.lat, props.ip.location.lng]);
-		console.log();
-		console.log('here');
 	}, [props.ip]);
 
 	return (
