@@ -30,10 +30,10 @@ const SawoLogin = (props) => {
 	return (
 		<div className='login-screen'>
 			<div className='login-sawo-container'>
-				<div className='ip-details'>Login</div>
+				<h1 className='rubik-700-drk-gray login-title'>LOGIN </h1>
 				<div
 					id='sawo-container'
-					style={{ height: '300px', width: '300px', borderRadius: '50px' }}
+					style={{ height: '300px', width: '315px', borderRadius: '50px' }}
 				></div>
 			</div>
 		</div>
