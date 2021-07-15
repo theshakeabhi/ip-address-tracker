@@ -10,6 +10,10 @@
 .login-sawo-container {
 	background-color: white;
 	border: 2px solid rgb(255, 255, 255);
-	border-radius: 43px;
-	padding: 5%;
+	border-radius: 35px;
+	padding: 2%;
+}
+
+.login-title {
+	margin: 0;
 }

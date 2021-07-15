@@ -25,7 +25,7 @@ Users should be able to:
 - Solution Site URL:
   - [Front-end](https://github.com/theshakeabhi/ip-address-tracker)
   - [Back-end](https://github.com/theshakeabhi/ip-address-tracker-node)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [IP Address Tracker Link](https://ip-address-tracker-fe.herokuapp.com/)
 
 ## My process
 
@@ -33,4 +33,7 @@ Users should be able to:
 
 - [React](https://reactjs.org/) - JS library
 - [Sawo](https://sawolabs.com/) - Passwordless Authentication
+- [Leaftlet](https://leafletjs.com/) - A Map Library
+- [IP Geolocation API](https://geo.ipify.org/) - An IP locator API
+- axios
 - Flexbox
