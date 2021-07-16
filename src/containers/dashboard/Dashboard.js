@@ -5,7 +5,7 @@ import Map from '../../components/Map/Map';
 import '../../styles/typography/typography.css';
 import './Dashboard.css';
 
-function Dashboard() {
+function Dashboard(props) {
 	const [searchedIp, setSearchedIp] = useState('');
 	const [ip, setIp] = useState(null);
 
@@ -15,7 +15,7 @@ function Dashboard() {
 				<div className='main-section'>
 					<h1 className='heading rubik-700-white'>IP Address Tracker</h1>
 					<SearchBar setSearchedIp={setSearchedIp} />
-					<IpModal searchedIp={searchedIp} ip={ip} setIp={setIp} />
+					<IpModal searchedIp={searchedIp} ip={ip} setIp={setIp} userId={props.userId} />
 				</div>
 			</div>
 			{ip && <Map ip={ip}></Map>}
