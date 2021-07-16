@@ -20,6 +20,30 @@ Users should be able to:
 - See their own IP address on the map on the initial page load
 - Search for any IP addresses or domains and see the key information and location
 
+### Screenshot
+
+- #### **WEB VIEW**
+- Web Login Page:
+  ![Postman API call](./screenshots/webLogin.png)
+- Web Dashboard Page:
+  ![Postman API call](./screenshots/webLanding.png)
+- Web Dashboard Page on Value:
+  ![Postman API call](./screenshots/webDataEntered.png)
+
+- #### **MOBILE VIEW**
+
+- Mobile Login View.
+  ![Postman API call](./screenshots/mobileLogin.png)
+- Mobile View.
+  ![Postman API call](./screenshots/mobileLanding.png)
+- Mobile View.
+  ![Postman API call](./screenshots/mobileDataEntered.png)
+
+- #### **POSTMAN CALL**
+
+- Postman call for saving the data.
+  ![Postman API call](./screenshots/postmanScreenshot.png)
+
 ### Links
 
 - Solution Site URL:
@@ -33,7 +57,9 @@ Users should be able to:
 
 - [React](https://reactjs.org/) - JS library
 - [Sawo](https://sawolabs.com/) - Passwordless Authentication
-- [Leaftlet](https://leafletjs.com/) - A Map Library
 - [IP Geolocation API](https://geo.ipify.org/) - An IP locator API
-- axios
+- [Leaftlet](https://leafletjs.com/) - A Map Library
+- [React Leaflet](https://react-leaflet.js.org/) - React components for Leaflet maps
+- [Axios](https://axios-http.com/) - Promise based HTTP client for the browser and node.js
 - Flexbox
+- Media Query - For responsive mobile view
