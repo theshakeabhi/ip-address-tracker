@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import axios from 'axios';
 import './index.css';
 import App from './containers/App';
 import reportWebVitals from './reportWebVitals';
+
+axios.defaults.baseURL = 'https://ip-address-tracker-node.herokuapp.com/';
+axios.defaults.headers.post['Content-Type'] = 'application/json';
 
 ReactDOM.render(
 	<React.StrictMode>
