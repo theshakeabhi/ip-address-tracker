@@ -5,7 +5,7 @@ import SawoLogin from './sawo-login/SawoLogin';
 
 function App() {
 	const [loginStatus, setLoginStatus] = useState(false);
-
+	const user = localStorage.getItem('user_id');
 	useEffect(() => {
 		const userId = localStorage.getItem('user_id');
 		if (userId) {
@@ -18,7 +18,7 @@ function App() {
 	return (
 		<div className='App'>
 			{!loginStatus && <SawoLogin setLoginStatus={setLoginStatus} />}
-			{loginStatus && <Dashboard />}
+			{loginStatus && <Dashboard userId={user} />}
 		</div>
 	);
 }
