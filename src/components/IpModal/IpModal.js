@@ -15,8 +15,6 @@ const IpModal = (props) => {
 			.then((response) => {
 				setIpDetails(response.data);
 				props.setIp(response.data);
-				console.log(ipDetails);
-				console.log(props.ip);
 			})
 			.catch((error) => {
 				if (error.response !== undefined) {
